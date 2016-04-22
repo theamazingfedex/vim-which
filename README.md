@@ -10,9 +10,12 @@ Or to quickly echo the results of the bash `which` command, simply add the argum
 
 `:Which vim`
 
-If you would like to use vim-which with the lowercase command `:which` you can add the following line to your .vimrc and reload vim
+As a convenience feature, you can yank the output to your default register:
 
-`set vimwhich#enable_lowercase`
+`:Whichc`
+or
+`:Whichc vim`
+
 ## Installation
 To install vim-which, I suggest a plugin manager such as NeoBundle or vim-plug.
 
